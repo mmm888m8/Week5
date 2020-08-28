@@ -1,8 +1,8 @@
-//全域註冊input驗證元件
+//全域註冊input驗證元件 !!!
 Vue.component('ValidationProvider', VeeValidate.ValidationProvider);
-//全域註冊表單驗證元件
+//全域註冊表單驗證元件  !!!
 Vue.component('ValidationObserver', VeeValidate.ValidationObserver);
-//全域註冊VueLoading元件
+//全域註冊VueLoading元件  !!!
 Vue.component('loading', VueLoading);
 //匯入中文語系檔案
 import zh_TW from "./zh_TW.js";
